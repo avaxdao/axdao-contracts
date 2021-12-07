@@ -2,8 +2,8 @@
 
 pragma solidity 0.8.6;
 
-import "../@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "../@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol";
+import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol";
 
 contract AxDaoProfile is ERC721Holder {
 

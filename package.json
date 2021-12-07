@@ -1,0 +1,8 @@
+{
+  "name": "axdao-contracts",
+  "repository": "git@github.com:avaxdao/axdao-contracts.git",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}

@@ -3,11 +3,11 @@
 pragma solidity 0.8.6;
 
 import "./IAxMutation.sol";
-import "../@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "../@openzeppelin/contracts/utils/Strings.sol";
-import "../@openzeppelin/contracts/utils/Address.sol";
-import "../@openzeppelin/contracts/access/Ownable.sol";
-import "../@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
+import "@openzeppelin/contracts/utils/Address.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 contract MutantAxApes is ERC721Enumerable, Ownable, ReentrancyGuard {
     using Strings for uint256;
